@@ -31,7 +31,11 @@ export const Navigation = () => {
                <Routes>
                   {
                      routes.map(({ path, Component }) => (
-                        <Route path={path} element={< Component />} key={path} />
+                        <Route
+                           path={path}
+                           element={< Component />}
+                           key={path}
+                        />
                      ))
                   }
                   <Route path="/*" element={<Navigate to={routes[0].to} replace />} />
