@@ -10,7 +10,6 @@ input, select {
     padding: 10px;
 }
 
-
 button {
     margin-top: 20px;
     padding: 10px;
@@ -22,4 +21,13 @@ span, .error-message {
 
 .has-error {
     border: 1px solid red;
+}
+
+.custom-span-error-class{
+   font-size: 16px;
+   padding: 6px;
+   background-color: beige;
+   border-radius: 6px;
+   color: brown;
+   font-weight: 400;
 }
