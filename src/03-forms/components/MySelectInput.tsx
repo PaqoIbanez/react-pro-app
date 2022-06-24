@@ -3,7 +3,7 @@ import { useField } from "formik";
 interface Props {
    label: string;
    name: string;
-   options?: [value: string, optionName: string][]
+   options?: any[][];
    [x: string]: any;
 }
 

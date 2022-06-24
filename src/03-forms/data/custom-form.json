@@ -1,0 +1,77 @@
+[
+   {
+      "type": "text",
+      "name": "firstName",
+      "placeholder": "First Name",
+      "label": "First Name",
+      "value": "",
+      "validations": [
+         {
+            "type": "required"
+         },
+         {
+            "type": "minLength",
+            "value": 5
+         }
+      ]
+   },
+   {
+      "type": "text",
+      "name": "lastName",
+      "placeholder": "Last Name",
+      "label": "Last Name",
+      "value": "",
+      "validations": [
+         {
+            "type": "required"
+         },
+         {
+            "type":"minLength"
+         }
+      ]
+   },
+   {
+      "type": "email",
+      "name": "email",
+      "placeholder": "Email Address",
+      "label": "Email Address",
+      "value": "",
+      "validations": [
+         {
+            "type": "required"
+         },
+         {
+            "type": "email"
+         }
+      ]
+   },
+   {
+      "type": "select",
+      "name": "videogames",
+      "label": "Video Juegos",
+      "value": "",
+      "options": [
+         {
+            "id": 1,
+            "label": "Super Smash Bross"
+         },
+         {
+            "id": 2,
+            "label": "Super Mario Bross"
+         },
+         {
+            "id": 3,
+            "label": "Zelda"
+         },
+         {
+            "id": 4,
+            "label": "DKong"
+         }
+      ],
+      "validations": [
+         {
+            "type": "required"
+         }
+      ]
+   }
+]
